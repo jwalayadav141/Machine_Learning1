@@ -30,3 +30,15 @@ To check remote url
 ```
 git remote -v
 ```
+
+Heroku deployement requirements:
+1. HEROKU_EMAIL :
+2. HEROKU_API_KEY: 
+3. HEROKU_APP_NAME: ml-regression-app
+
+BUILD DOCKER IMAGE
+```
+docker build -t <image_name>:<tagname> .
+```
+
+>Note: Image name for docker must be lowercase
